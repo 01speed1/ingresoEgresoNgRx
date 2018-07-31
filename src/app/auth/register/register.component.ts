@@ -1,7 +1,7 @@
 import { Subscription } from 'rxjs';
-import { AppState } from './../../app.reducer';
+import { AppState } from '../../app.reducer';
 import { Store } from '@ngrx/store';
-import { AuthService } from './../auth.service';
+import { AuthService } from '../auth.service';
 import { Component, OnInit, OnDestroy } from '@angular/core';
 
 @Component({

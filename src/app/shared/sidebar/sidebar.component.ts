@@ -1,10 +1,10 @@
 import { filter } from 'rxjs/operators';
-import { AuthService } from './../../auth/auth.service';
-import { User } from './../../auth/user.model';
+import { AuthService } from '../../auth/auth.service';
+import { User } from '../../auth/user.model';
 import { Store } from '@ngrx/store';
-import { AppState } from './../../app.reducer';
+import { AppState } from '../../app.reducer';
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { Subscription } from '../../../../node_modules/rxjs';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-sidebar',

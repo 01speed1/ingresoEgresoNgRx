@@ -1,5 +1,5 @@
 import { SetUserActions } from './auth.actions';
-import { AppState } from './../app.reducer';
+import { AppState } from '../app.reducer';
 import { User } from './user.model';
 import { Router } from '@angular/router';
 import { Injectable } from '@angular/core';
@@ -13,7 +13,7 @@ import { Store } from '@ngrx/store';
 
 import { 
   ActivarLoadingAction, 
-  DesactivarLoadingAction } from './../shared/ui.actions';
+  DesactivarLoadingAction } from '../shared/ui.actions';
 import { Subscription } from 'rxjs';
 import { IngresoEgresoService } from '../ingreso-egreso/ingreso-egreso.service';
 

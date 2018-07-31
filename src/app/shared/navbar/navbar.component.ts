@@ -1,6 +1,6 @@
 import { Store } from '@ngrx/store';
 import { Subscription } from 'rxjs';
-import { User } from './../../auth/user.model';
+import { User } from '../../auth/user.model';
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { AppState } from '../../app.reducer';
 

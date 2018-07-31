@@ -1,6 +1,6 @@
-import { AuthService } from './../auth/auth.service';
+import { AuthService } from '../auth/auth.service';
 import { Subscription } from 'rxjs';
-import { IngresoEgresoService } from './../ingreso-egreso/ingreso-egreso.service';
+import { IngresoEgresoService } from '../ingreso-egreso/ingreso-egreso.service';
 import { Component, OnInit, OnDestroy } from '@angular/core';
 
 @Component({

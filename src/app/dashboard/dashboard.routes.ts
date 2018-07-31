@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { EstadisticaComponent } from '../ingreso-egreso/estadistica/estadistica.component';
 import { IngresoEgresoComponent } from '../ingreso-egreso/ingreso-egreso.component';
-import { DetalleComponent } from './../ingreso-egreso/detalle/detalle.component';
+import { DetalleComponent } from '../ingreso-egreso/detalle/detalle.component';
 
 export const dashboardRoutes: Routes = [
     { path: '', component: EstadisticaComponent },

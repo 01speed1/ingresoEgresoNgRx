@@ -1,5 +1,5 @@
-import { AppState } from './../../app.reducer';
-import { AuthService } from './../auth.service';
+import { AppState } from '../../app.reducer';
+import { AuthService } from '../auth.service';
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import {  Store } from '@ngrx/store';
 import { Subscription } from 'rxjs';

@@ -1,4 +1,4 @@
-import { AppState } from './../../app.reducer';
+import { AppStateIE } from './../ingreso-egreso.reducer';
 import { Store } from '@ngrx/store';
 import { Component, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
@@ -23,7 +23,7 @@ export class EstadisticaComponent implements OnInit {
   itemsSub:Subscription =  new Subscription();
 
   constructor(
-    private store: Store<AppState>
+    private store: Store<AppStateIE>
   ) { }
 
   ngOnInit() {

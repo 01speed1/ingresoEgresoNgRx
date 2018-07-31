@@ -1,7 +1,7 @@
 import { SetItemsAction } from './ingreso-egreso.actions';
-import { AppState } from './../app.reducer';
+import { AppState } from '../app.reducer';
 import { Store } from '@ngrx/store';
-import {  AuthService } from './../auth/auth.service';
+import {  AuthService } from '../auth/auth.service';
 import { AngularFirestore } from 'angularfire2/firestore';
 import { IngresoEgreso } from './ingresos-egresos.model';
 

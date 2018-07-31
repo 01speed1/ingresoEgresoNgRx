@@ -1,12 +1,12 @@
-import { ActivarLoadingAction, DesactivarLoadingAction } from './../shared/ui.actions';
-import { AppState } from './../app.reducer';
+import { AppStateIE } from './ingreso-egreso.reducer';
+import { ActivarLoadingAction, DesactivarLoadingAction } from '../shared/ui.actions';
 import { Ng2IzitoastService } from 'ng2-izitoast';
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { IngresoEgreso } from './ingresos-egresos.model';
 import { IngresoEgresoService } from './ingreso-egreso.service';
-import { Store } from '../../../node_modules/@ngrx/store';
-import { Subscription } from '../../../node_modules/rxjs';
+import { Store } from '@ngrx/store';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-ingreso-egreso',
@@ -21,7 +21,7 @@ export class IngresoEgresoComponent implements OnInit,OnDestroy {
   loading: boolean
   
   constructor( 
-    private store: Store<AppState>,
+    private store: Store<AppStateIE>,
     public sIngresoEgreso: IngresoEgresoService,
     public iziToast:Ng2IzitoastService
    ) { }
